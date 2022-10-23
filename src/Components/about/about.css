@@ -2,15 +2,11 @@
    display: grid;
    grid-template-columns: 35% 50%;
    gap: 15%;
-
-
+   /* border: 1px solid red; */
 }
 
 .about_me {
-   width:18rem;
-   height: 25rem;
    
-  
    border-radius: 2rem;
    /* background: linear-gradient(
       45deg,
@@ -20,22 +16,26 @@
    ); */
    display: grid;
    place-items:start;
-
+   /* border: 1px solid red; */
 }
 
 .about_me-image {
-   width: 100%;
+   width:14rem;
+   height: 20rem;
+   
+  
    aspect-ratio: 1/1.4;
    border-radius: 2rem;
    overflow: hidden;
    /* transform: rotate(10deg); */
    transition: var(--transition);
-  
+   /* border: 1px solid red; */
    
 }
 
 .about_me-image img{
  width: 100%;
+ /* border: 1px solid red; */
 }
 
 .about_me-image:hover {
@@ -46,7 +46,7 @@
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap:1.5rem;
-  
+   /* border: 1px solid red; */
 }
 
 .about_card{
@@ -56,7 +56,7 @@
    padding: 2rem;
    text-align: center;
    transition: var(--transition);
-   
+   /* border: 1px solid red; */
   
 }
 
@@ -92,24 +92,34 @@
 @media screen and (max-width:1024px) {
   .about_container {
    grid-template-columns: 1fr;
-   gap:0;
+   gap:10%;
+   padding-bottom: 15vh;
+  
   }
 
   .about_me{
-   width:50%;
-   margin: 2rem auto 4rem;
+   width: 100%;
+ margin: auto;
+  }
+
+  .about_me-image{
+   width:14rem;
+   height: 20rem;
+   margin: auto;
   }
 
   .about_content p {
-   margin:1rem 0 1.5rem;
+   margin:1rem auto 1.5rem;
   }
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
 @media screen and (max-width:600px) {
+
+  
    .about_me{
       width:65%;
-      margin:0 auto 3rem;
+      margin:auto
    }
    .about_cards {
       grid-template-columns: 1fr 1fr;
