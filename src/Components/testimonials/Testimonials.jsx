@@ -30,13 +30,14 @@ const data =[
   {
     avatar:AVTR3,
     name:"Shoib Patel",
-    review:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero, sapiente dolore autem sed, doloribus ratione dolorem laborum veritatis eligendi nesciunt iusto modi consequuntur laboriosam expedita. Esse facere sunt corrupti."
-  },
-  {
-    avatar:AVTR4,
-    name:"Tina Snow",
-    review:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero, sapiente dolore autem sed, doloribus ratione dolorem laborum veritatis eligendi nesciunt iusto modi consequuntur laboriosam expedita. Esse facere sunt corrupti."
+    review:"Alishan is a hardworking person with a good organization ability. We both worked on a same project where he has shown good team collaboration so why I recommend Jishan as a good developer."
   }
+  ,
+  // {
+  //   avatar:AVTR4,
+  //   name:"Tina Snow",
+  //   review:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero, sapiente dolore autem sed, doloribus ratione dolorem laborum veritatis eligendi nesciunt iusto modi consequuntur laboriosam expedita. Esse facere sunt corrupti."
+  // }
 ]
 
 
