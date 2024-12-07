@@ -33,7 +33,7 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>0-1 Years 
+              <small>2 Years 
                 {/* Working */}
                 </small>
             </article>
@@ -47,13 +47,16 @@ const About = () => {
           </div>
 
           <p>
-          An aspiring Full Stack Web Developer learning
-MERN Stack web development. Skilled in
-HTML, CSS, JavaScript, data structure. Highly
-passionate about building web applications
-and always enthusiastic about learning new
-things.
-
+          I am a skilled Frontend Engineer with 2 years of
+experience in building dynamic and responsive
+web applications using ReactJs, HTML, CSS and
+Javascript. Proficient in leveraging Node.js,
+Express.js and other modern tools to deliver
+seamless user experiences. passionate about
+creating visually appealing and performant
+interfaces. Continuously staying updated with the
+latest web technologies to ensure cutting-edge
+solutions for client projects.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
