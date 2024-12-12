@@ -7,7 +7,7 @@ import  HeaderSocials from "./headerSocials"
 
 const Header = () => {
   return (
-   <header>
+   <header id="header">
       <div className="container header_container">
         <h4>Hello<span className="emoji" >👋</span>  I'm </h4>
         <h1>Alishan Shaikh</h1>
