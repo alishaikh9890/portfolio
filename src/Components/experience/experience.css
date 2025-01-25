@@ -26,7 +26,7 @@
 
 .experience_content{
    display: grid;
-   grid-template-columns: 1fr;
+   grid-template-columns: auto auto !important;
    row-gap: 2rem;
 }
 

@@ -11,6 +11,19 @@ header{
    height: 100%;
    position:relative;
    border: 1px solid transparent;
+   display: flex;
+   flex-wrap: wrap;
+}
+.w-2{
+   width: 50%;
+   padding-bottom: 50px;
+   /* border: 1px solid lightyellow; */
+}
+
+@media(max-width:991px){
+   .w-2{
+      width: 100%;
+   }
 }
 
 /* .text-light{
@@ -57,12 +70,11 @@ header{
 /* =============== CTA ===================*/
 
 .cta {
-   margin-top: 2.5rem;
+   margin-top: 1.5rem;
 display: flex;
 gap:1.2rem;
 justify-content: center;
 /* border: 1px solid red; */
-margin-bottom: 70vh;
 }
 
 /* ========= HEADER SOCIALS ==========*/
@@ -72,9 +84,9 @@ margin-bottom: 70vh;
    flex-direction: column;
    align-items: center;
    gap: 0.8rem;
-   position: absolute;
-   left: 0;
-   bottom: 2rem;
+   position: fixed;
+   left: 2rem;
+   bottom: 50%;
    /* border: 1px solid red; */
 }
 
@@ -102,24 +114,22 @@ margin-bottom: 70vh;
  
    background: linear-gradient(var
    (--color-primary), transparent);
-   width: 22rem;
-   height: 22rem;
-   position: absolute;
-   bottom: 0;
-   left: calc(50% - 11rem);
-   margin-top: 4rem;
-   border-radius: 11rem 11rem 0 0;
    overflow: hidden;
    /* padding: 5rem 1.5rem 1.5rem 1.5rem;  */
    /* border: 1px solid red; */
 
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
 
 .me img{
-   border-radius: 10rem 10rem 0 0;
+   /* border-radius: 11rem 11rem 2rem 2rem; */
+   border-radius: 50%;
    aspect-ratio: 1/1;
-   
+   max-width: 22rem;
+   max-height: 22rem;
   
 
 }
@@ -146,23 +156,17 @@ margin-bottom: 70vh;
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
 @media screen and (max-width:600px) {
 
-   .cta{
-      margin-bottom: 50vh;
-   }
-   .me{
-      left: calc(50% - 7rem);
-      width: 14rem;
-      height: 14rem;
-     
-   }
    
    .header_socials{
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 0.2rem;
-      position: absolute;
-      bottom: 0;
+      position: fixed;
+      bottom: 50%;
+      left: 0rem;
+      backdrop-filter: blur(20px);
+      z-index:1000;
       
    }
    .header_socials a{

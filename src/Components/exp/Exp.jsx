@@ -10,7 +10,6 @@ const Exp = () => {
 
       <div className="container experience_container">
         <div className="experience-frontend">
-          <h3>MERN Stack Development</h3>
           <div className="experience_content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
@@ -23,26 +22,9 @@ const Exp = () => {
           </div>
         </div>
 
-
-       
-        <div className="experience-frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Frontend Developer</h4>
-                <small className="text-light">Ask Digital Solution</small>
-              </div>
-            </article>
-
-          </div>
-        </div>
-
         {/* backend detials now  */}
 
         <div className="experience_backend">
-          <h3>Frontend Developement</h3>
           <div className="experience_content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
